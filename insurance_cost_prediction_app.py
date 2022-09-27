@@ -4,7 +4,7 @@ import streamlit as st
 
 #loading the saved model
 
-prediction_model = pickle.load(open('/content/drive/MyDrive/Medical insurance cost prediction /random_forest_regression_model.pkl', 'rb'))
+prediction_model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
 
 
 # Creating the Title
